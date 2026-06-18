@@ -1,4 +1,4 @@
-name = "zizifn"
+name = "spring"
 main = "index.js"
 compatibility_date = "2025-11-09"
 workers_dev = true
@@ -13,6 +13,13 @@ minify = false
 [vars]
 UUID = "9bef33ed-40de-492a-8107-4d97090605f9"
 PROXYIP = "66.253.7.79"
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
 
 # [build]
 # command = "npm run deploy"
